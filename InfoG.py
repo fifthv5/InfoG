@@ -1,4 +1,5 @@
 from utils import *
+clear()
 toolname()
 your_ip()
 print('''
