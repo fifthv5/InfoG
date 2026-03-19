@@ -35,4 +35,4 @@ try:
             print('Enter a valid command')
 
 except KeyboardInterrupt:
-    toolname()
+    print("")
