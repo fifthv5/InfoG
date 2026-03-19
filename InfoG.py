@@ -1,5 +1,5 @@
 from utils import *
-tool_name()
+print(logo)
 your_ip()
 print('''
 =========================
