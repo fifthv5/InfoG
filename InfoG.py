@@ -2,14 +2,12 @@ from utils import *
 tool_name()
 your_ip()
 print('''
+=========================
 [1]Get website IP address
-
 [2]IP lookup
-
 [3]Phone no. lookup
-
 [4]IP-Grabber
-
+========================
 ''')
 try:
     while True:
@@ -22,8 +20,19 @@ try:
             ph_num_lookup()
         elif command == '4':
             ip_grabber()
+        elif command == 'help':
+            print('''
+            =========================
+            [1]Get website IP address
+            [2]IP lookup
+            [3]Phone no. lookup
+            [4]IP-Grabber
+            ========================
+            ''')
+        elif command == 'clear':
+             clear()
         else:
             print('Enter a valid command')
 
 except KeyboardInterrupt:
-    tool_name()
+    print(logo)
