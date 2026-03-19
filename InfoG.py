@@ -1,5 +1,5 @@
 from utils import *
-print(logo)
+toolname()
 your_ip()
 print('''
 =========================
@@ -35,4 +35,4 @@ try:
             print('Enter a valid command')
 
 except KeyboardInterrupt:
-    print(logo)
+    toolname()
