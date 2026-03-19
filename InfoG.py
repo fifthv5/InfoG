@@ -5,7 +5,7 @@ print('''
    =========================
    [1]Get website IP address
    [2]IP lookup
-   [3]Phone no. lookup
+   [3]Phone number lookup
    [4]IP-Grabber
    ========================
 ''')
@@ -22,15 +22,17 @@ try:
             ip_grabber()
         elif command == 'help':
             print('''
-               =========================
+            =========================
                [1]Get website IP address
                [2]IP lookup
-               [3]Phone number lookup
+               [3]Phone no. lookup
                [4]IP-Grabber
                ========================
             ''')
         elif command == 'clear':
              clear()
+        elif command == 'exit':
+             exit()     
         else:
             print('Enter a valid command')
 
