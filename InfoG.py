@@ -24,7 +24,7 @@ try:
         elif command == 'help':
            clear() 
            print('''
-            =========================
+               =========================
                [1]Get website IP address
                [2]IP lookup
                [3]Phone no. lookup
