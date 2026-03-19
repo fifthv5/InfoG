@@ -2,16 +2,16 @@ from utils import *
 toolname()
 your_ip()
 print('''
-=========================
-[1]Get website IP address
-[2]IP lookup
-[3]Phone no. lookup
-[4]IP-Grabber
-========================
+   =========================
+   [1]Get website IP address
+   [2]IP lookup
+   [3]Phone no. lookup
+   [4]IP-Grabber
+   ========================
 ''')
 try:
     while True:
-        command= input('InfoG> ')
+        command= input('   InfoG> ')
         if command == '1':
             domain_name()
         elif command == '2':
@@ -22,12 +22,12 @@ try:
             ip_grabber()
         elif command == 'help':
             print('''
-            =========================
-            [1]Get website IP address
-            [2]IP lookup
-            [3]Phone no. lookup
-            [4]IP-Grabber
-            ========================
+               =========================
+               [1]Get website IP address
+               [2]IP lookup
+               [3]Phone number lookup
+               [4]IP-Grabber
+               ========================
             ''')
         elif command == 'clear':
              clear()
