@@ -22,7 +22,8 @@ try:
         elif command == '4':
             ip_grabber()
         elif command == 'help':
-            print('''
+           clear() 
+           print('''
             =========================
                [1]Get website IP address
                [2]IP lookup
