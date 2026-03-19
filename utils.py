@@ -70,3 +70,4 @@ def ip_grabber():
         os.system('cd IP-Grabber && sudo chmod 777 * && bash ip-grabber.sh')
 def clear():
      os.system("clear")
+     toolname()
