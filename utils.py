@@ -5,8 +5,16 @@ from phonenumbers import geocoder
 import os 
 import platform
 
-def tool_name():
-    print('''
+Bl = '\033[30m'  
+Re = '\033[1;31m'
+Gr = '\033[1;32m'
+Ye = '\033[1;33m'
+Blu = '\033[1;34m'
+Mage = '\033[1;35m'
+Cy = '\033[1;36m'
+Wh = '\033[1;37m'
+
+logo = '''{Wh}
  ___                                               ____________
 |%%%|                                             |@@@@@@@@@@@@|
 |%%%|  ____       ___   _________   ____________  |@@@@________|       
@@ -15,10 +23,9 @@ def tool_name():
 |%%%| |%%%%%%\   |%%%| |%%%_____|  |%%|      |%%| |@@@|      |@@@|
 |%%%| |%%%|\%%\  |%%%| |%%%|       |%%|      |%%| |@@@|______|@@@|
 |%%%| |%%%| \%%\ |%%%| |%%%|       |%%|______|%%| |@@@@@@@@@@@@@@|
-|___| |___|  \_______| |___|       |____________| |______________|By: Tech-Sec
-For more visit: https://github/Tech-Sec
-''')
-
+|___| |___|  \_______| |___|       |____________| |______________|By: Fifthv5
+For more visit: https://github/fifthv5
+{Gr}'''
 
 def domain_name():
     print(socket.gethostbyname(input('Domain name: ')))
@@ -60,3 +67,5 @@ def ip_grabber():
         print('IP-Grabber is not supported on Windows')
     else:
         os.system('cd IP-Grabber && sudo chmod 777 * && bash ip-grabber.sh')
+def clear():
+     os.system("clear")
